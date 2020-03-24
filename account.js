@@ -21,8 +21,8 @@ function account() {
 
   var openAccount = function(account, deposit) {
     account.balance += signupBonus
-    output['New balance after signup bonus is '] = account.balance
-    account.balance += deposit
+    output['New balance after signup bonus is '] = customerAccount.balance
+    customerAccount.balance += deposit
   }
 
   output['Account before opening'] = customerAccount
