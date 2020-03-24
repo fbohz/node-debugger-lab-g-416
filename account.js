@@ -9,7 +9,7 @@ function account() {
   }
 
   function setAccountType () {
-    if (customerAccount.checking === 1) {
+    if (customerAccount.checking == 1) {
       customerAccount.type = 'checking'
     } else {
       customerAccount.type = 'savings'
