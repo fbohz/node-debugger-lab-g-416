@@ -1,4 +1,4 @@
-module.exports = account()
+module.exports = account
 
 function account() {
   var output = {}
