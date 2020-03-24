@@ -5,7 +5,7 @@ function account() {
   var customerAccount = {
     balance: 0,
     name: 'Azat Mardan',
-    checking: '1'
+    checking: 1
   }
 
   function setAccountType () {
@@ -27,7 +27,7 @@ function account() {
 
   output['Account before opening'] = customerAccount
 
-  openAccount(customerAccount)
+  openAccount(customerAccount, deposit)
   setAccountType()
   output['Account after opening'] = customerAccount
   return output
