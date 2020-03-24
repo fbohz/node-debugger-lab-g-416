@@ -20,7 +20,7 @@ function account() {
   var deposit = 1000;
 
   var openAccount = function(account, deposit) {
-    account.balance += signupBonus
+    customerAccount.balance += signupBonus
     output['New balance after signup bonus is '] = customerAccount.balance
     customerAccount.balance += deposit
   }
